@@ -3,7 +3,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
     body {
     background-color: #a8e8f3;
@@ -11,8 +10,8 @@
 .navbar {
     width: 100%;
     height: 100px;
-    background-color: #b4d2dc;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, .4);
+    background-color:#dcf6ff;
+    box-shadow: 0 4px 10px rgb(196 197 216 / 83%)
 }
 #logo {
     width: 100px;
@@ -37,7 +36,7 @@
 }
 .navbar-menu li a {
     display:inline-block;
-    color: rgb(red, green, rgb(99, 99, 124));
+    color: #6e6b82;
     opacity: 0.8;
     text-decoration: none;
     padding: 10px;
@@ -63,22 +62,21 @@
     column-gap: 30px;
 }
 .main-content {
+    margin-left: 140px;
     max-width: 700px ;
-    margin-left: 170px;
     text-align: center;
-    margin-top: 120px;
+    margin-top: 80px;
 }
 img {
 
     float: right;
     width: 600px;
     height: 600px;
-    margin-right: 190px;
+    margin-right: 150px;
 }
 .header-heading {
-    font-weight: 300px;
-    font-size: 35px;
-    margin-bottom: 80px;
+    font-size: 30px;
+    margin-bottom: 40px;
     color: rgb(128, 142, 140);
     -webkit-text-stroke: 2px rgb(29, 92, 105);
   text-transform: uppercase;
