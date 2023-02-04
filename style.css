@@ -83,8 +83,11 @@ img {
 }
 
 .main-content p {
-    font-size: 14px;
+    font-size: 17px;
     line-height: 2;
 
 
+}
+#hello {
+    font-size: 25px;
 }
